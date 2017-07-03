@@ -50,7 +50,7 @@ public class MainActivity extends AppCompatActivity {
         return super.onOptionsItemSelected(item);
     }
 
-    public void doSomeWork(){
+    public void doSomeWork() {
 
         int i = 4;
         int ii = 50;
@@ -59,8 +59,12 @@ public class MainActivity extends AppCompatActivity {
         String iString = Integer.toString(ii);
         String iiString = null;
 
-        if(iii <= 100){
+        if (iii <= 100) {
             iiString = Integer.toString(ii + 9);
         }
+    }
+
+    public void newMethod() {
+        int i = +1;
     }
 }
