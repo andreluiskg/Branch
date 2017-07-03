@@ -65,6 +65,6 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void newMethod() {
-        int i = +1;
+        int i = +3;
     }
 }
