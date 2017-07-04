@@ -52,19 +52,19 @@ public class MainActivity extends AppCompatActivity {
 
     public void doSomeWork() {
 
-        int i = 2;
-        int ii = 2;
-        int iii = 2;
+        int i = 22;
+        int ii = 22;
+        int iii = 22;
 
         String iString = Integer.toString(ii);
         String iiString = null;
 
-        if (iii <= 1) {
+        if (iii <= 22) {
             iiString = Integer.toString(ii + 1);
         }
     }
 
     public void newMethod() {
-        int i = +3;
+        int i = +22;
     }
 }
