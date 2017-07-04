@@ -52,9 +52,9 @@ public class MainActivity extends AppCompatActivity {
 
     public void doSomeWork() {
 
-        int i = 1;
-        int ii = 1;
-        int iii = 1;
+        int i = 2;
+        int ii = 2;
+        int iii = 2;
 
         String iString = Integer.toString(ii);
         String iiString = null;
@@ -65,6 +65,6 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void newMethod() {
-        int i = +1;
+        int i = +3;
     }
 }
